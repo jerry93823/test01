@@ -1,123 +1,22 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<title>跑酷高手 1 - 又上又下</title>
-	<style type="text/css">
-.wrap {
-width: 400px;
-margin: 30px auto;
-}
-textarea {
-display: block;
-width: 100%;
-height: 60px;
-}
-input {
-display: block;
-width: 60%;
-margin: 15px auto;
-}
-li {
-padding: 5px 10px;
-position: relative;
-word-break: break-all;
-}
-.red {
-color: #000;
-background: #f1f1f1;
-} 
-.pink {
-color: #000;
-background: #ccc;
-}
-a {
-position: absolute;
-right: 0;
-top: -20px;
-background: yellow;
-color: #fff;
-} 
-#list {
-margin: 0;
-padding: 0;
-list-style: none;
-font: 14px/26px "宋體";
-}
-.clos {
-position: absolute;
-top: 0;
-right: -50px;
-width: 50px;
-color: #fff;
-background: #000;
-padding: 5px 0;
-text-decoration: none;
-text-align: center;
-}
-.clos:hover {
-box-shadow: 0 0 5px rgba(0,0,0,.5)
-}
-</style>
-<script type="text/javascript">
-window.onload = function(){
-var btn = document.querySelector('input');
-var text = document.querySelector('textarea');
-var list = document.querySelector('#list');
-var colors = ["red","pink"];
-var nub = 0;
-btn.onclick = function(){
-if(text.value.trim() == ""){
-alert("請輸入留言");
-return false;
-}
-var li = document.createElement("li");
-li.innerHTML = text.value;
-// li.className = colors[nub%colors.length];
-/* 判斷a標籤已經被新增，就讓a標籤顯示出來，否則就新增 */
-if(list.children[0]&&list.children[0].className=="red"){
-li.className = "pink";
-} else {
-li.className = "red";
-}
-var a = null;
-li.onmouseover = function(){
-if(a) {
-a.style.display = "block";
-} else {
-a = document.createElement("a");
-a.href = "javascript:;";
-a.className = "clos";
-a.innerHTML = "刪除";
-a.onclick = function (){
-list.removeChild(this.parentNode);
-};
-this.appendChild(a);
-}
-};
-li.onmouseout = function(){
-a.style.display = "none";
-};
-list.insertBefore(li,list.children[0]);
-text.value = "";
-nub  ;
-};
-}; 
-</script>
 </head>
-<body background="https://1.bp.blogspot.com/-1DcTyIslgrY/XiBOl4ySoCI/AAAAAAABPZ0/KmOlz4rEb-wL-4fNjh8CLi5xgAbXoSxCwCLcBGAsYHQ/w1600/157917556_000_0.jpg"> 
-	<div style="background-color:#BBFF00;" text="" align="center"><h1>跑酷高手 1 - 又上又下</h1>
-	</div>
+<body background="https://1.bp.blogspot.com/-1DcTyIslgrY/XiBOl4ySoCI/AAAAAAABPZ0/KmOlz4rEb-wL-4fNjh8CLi5xgAbXoSxCwCLcBGAsYHQ/w1600/157917556_000_0.jpg" > 
+	<div style ="background-color:#BBFF00;"text align="center"><h1>跑酷高手 1 - 又上又下</h1></div>
     <img src="https://truth.bahamut.com.tw/s01/201505/934fb9f2080efbac93dbf26701a58e63.JPG" width="600" height="820" align="right">
-	<div style="background-color:#1E90FF;" text="" align="left" width="100"><h1>1.關卡說明</h1></div>
+	<div style ="background-color:#1E90FF;"text align="left" width="100"><h1>1.關卡說明</h1></div>
 	<table>
 		<colgroup>
 		<col span="1" style="background-color:#00AA00;">
 	</colgroup>
-		<tbody><tr>
+		<tr>
 		<td><h3>此關卡請下車跑步。</h3></td>
 	</tr>
-</tbody></table>
-	<div style="background-color:#1E90FF;" text="" align="left"><h1>2.關卡資訊</h1></div>
-	<table width="300" style="background-color:#FFBB00">
+</table>
+	<div style ="background-color:#1E90FF;"text align="left"><h1>2.關卡資訊</h1></div>
+	<table  width="300" style ="background-color:#FFBB00">
 		<tbody>
 			<tr>
 				<td align="left"><h3>評價</h3></td>
@@ -149,22 +48,16 @@ nub  ;
 			</tr>
 		</tbody>
     </table>
-    <div style="background-color:#1E90FF;" text="" align="left" width="100"><h1>3.心得</h1></div>
+    <div style ="background-color:#1E90FF;"text align="left" width="100"><h1>3.心得</h1></div>
     <table>
 		<colgroup>
 		<col span="1" style="background-color:#FF8800;">
 	</colgroup>
-		<tbody><tr>
+		<tr>
 		<td><h3>我覺得很好玩，只是有點難破而已。</h3></td>
-		
 	</tr>
-    </tbody></table>
-    <div>
-<div class="wrap">
-<textarea id="text"></textarea>
-<input type="button" value="發佈">
-<ul id="list"></ul>
-<a href="https://socialclub.rockstargames.com/job/gtav/OfzXMVXvs0-ixG2LJI8ppw?fbclid=IwAR3yPq8u_3Tj-lqR6o2M4RrR6DjigYvixDEaQ0E8iN4TM3BGAILV5pcVsmk"><h1>前往收藏</h1></a>
-<a href="https://jerry93823.github.io/test00/"><h1>前往首頁</h1></a>
-</div> 		
-</body></html>
+    </table>
+		<center><a href="https://socialclub.rockstargames.com/job/gtav/OfzXMVXvs0-ixG2LJI8ppw?fbclid=IwAR3yPq8u_3Tj-lqR6o2M4RrR6DjigYvixDEaQ0E8iN4TM3BGAILV5pcVsmk"><h1>前往收藏</h1></a></center>
+<center><a href="https://jerry93823.github.io/test00/"><h1>前往首頁</h1></a></center>
+	</body>
+</html>
